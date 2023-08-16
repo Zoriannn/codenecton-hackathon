@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".SecondFragment">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="202dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="202dp"
+        android:layout_marginBottom="620dp"
+        android:text="@string/alerts"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="360dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="104dp"
+        android:backgroundTint="#6B81C5"
+        android:backgroundTintMode="src_in"
+        app:cardBackgroundColor="#5C152667"
+        app:cardCornerRadius="20dp"
+        app:layout_anchor="@id/cardView"
+        app:layout_anchorGravity="bottom|center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="31dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="70dp"
+            android:contentDescription="@string/worry"
+            android:src="@drawable/worried" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="31dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="70dp"
+            android:contentDescription="@string/scary"
+            android:src="@drawable/scared" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="31dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="70dp"
+            android:contentDescription="@string/sad"
+            android:src="@drawable/sad" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#F8AFAF"
+            android:text="@string/_2_mins_ago" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/_1_2_km"
+            android:textColor="@color/white"
+             />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/jalan_bunga_raya"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/man_threatening__passerby_with_a_knife"
+            android:textColor="#FD4207"
+            android:textSize="16sp"
+            tools:ignore="TextContrastCheck" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="360dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="240dp"
+        android:backgroundTint="#6B81C5"
+        android:backgroundTintMode="src_in"
+        app:cardBackgroundColor="#5C152667"
+        app:cardCornerRadius="20dp"
+        app:layout_anchor="@id/cardView1"
+        app:layout_anchorGravity="bottom|center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="31dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="70dp"
+            android:contentDescription="@string/sad"
+            android:src="@drawable/worried" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="31dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="70dp"
+            android:contentDescription="@string/worry"
+            android:src="@drawable/scared" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="31dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="70dp"
+            android:contentDescription="@string/sad"
+            android:src="@drawable/sad" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#F8AFAF"
+            android:text="@string/_10_mins_ago" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/_2_2_km"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/jalan_tun_mustapha"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/man_with_gun_reported_in_a_playground"
+            android:textColor="#FD4207"
+            android:textSize="16sp"
+            tools:ignore="TextContrastCheck" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="360dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="380dp"
+        android:backgroundTint="#6B81C5"
+        android:backgroundTintMode="src_in"
+        app:cardBackgroundColor="#5C152667"
+        app:cardCornerRadius="20dp"
+        app:layout_anchor="@id/cardView3"
+        app:layout_anchorGravity="bottom|center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="31dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="70dp"
+            android:contentDescription="@string/sad"
+            android:src="@drawable/worried" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="31dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="70dp"
+            android:contentDescription="@string/worry"
+            android:src="@drawable/scared" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="31dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="70dp"
+            android:contentDescription="@string/sad"
+            android:src="@drawable/sad" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#F8AFAF"
+            android:text="@string/_12_mins_ago" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/_5_2_km"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/jalan_sungai_baru"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/worker_threatening_to_burn_down_building"
+            android:textColor="#FD4207"
+            android:textSize="16sp"
+            tools:ignore="TextContrastCheck" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

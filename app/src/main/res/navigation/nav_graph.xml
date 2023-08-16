@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/state">
+
+    <fragment
+        android:id="@+id/state"
+        android:name="com.example.myapplication2.Choosestate"
+        android:label="State"
+        tools:layout="@layout/choosestate">
+        <action
+            android:id="@+id/State_First_Fragment"
+            app:destination="@id/FirstFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.myapplication2.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_PropertLog"
+            app:destination="@id/PropertyLog" />
+        <action
+            android:id="@+id/action_FirstFragment_to_Tips"
+            app:destination="@id/Tips" />
+        <action
+            android:id="@+id/action_FirstFragment_to_Crimemap"
+            app:destination="@id/crimemap" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.myapplication2.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/PropertyLog"
+        android:name="com.example.myapplication2.PropertyLog"
+        android:label="Property Log"
+        tools:layout="@layout/propertylog">
+
+        <action
+            android:id="@+id/propertylog_addproperty"
+            app:destination="@id/AddPropertyLog" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/AddPropertyLog"
+        android:name="com.example.myapplication2.AddPropertyLog"
+        android:label="Add"
+        tools:layout="@layout/addpropertylog">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/Home"
+        android:name="com.example.myapplication2.home"
+        android:label="Home"
+        tools:layout="@layout/home">
+
+    </fragment>
+    <fragment
+        android:id="@+id/driving"
+        android:name="com.example.myapplication2.Driving"
+        android:label="Driving"
+        tools:layout="@layout/driving">
+
+    </fragment>
+    <fragment
+        android:id="@+id/purse"
+        android:name="com.example.myapplication2.Purse"
+        android:label="Purse"
+        tools:layout="@layout/purse">
+
+    </fragment>
+    <fragment
+        android:id="@+id/walking"
+        android:name="com.example.myapplication2.Walking"
+        android:label="Walking"
+        tools:layout="@layout/walking">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/Tips"
+        android:name="com.example.myapplication2.Tips"
+        android:label="Tips"
+        tools:layout="@layout/tips">
+
+        <action
+            android:id="@+id/home"
+            app:destination="@id/Home" />
+        <action
+            android:id="@+id/driving"
+            app:destination="@id/driving" />
+        <action
+            android:id="@+id/purse"
+            app:destination="@id/purse" />
+        <action
+            android:id="@+id/walking"
+            app:destination="@id/walking" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/crimemap"
+        android:name="com.example.myapplication2.Crimemap"
+        android:label="Crime Map"
+        tools:layout="@layout/crimemap">
+
+    </fragment>
+</navigation>
